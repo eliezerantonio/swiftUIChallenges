@@ -7,32 +7,76 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D7DBED752B855D720007CB4D /* DevoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DBED742B855D720007CB4D /* DevoteApp.swift */; };
-		D7DBED772B855D720007CB4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DBED762B855D720007CB4D /* ContentView.swift */; };
-		D7DBED792B855D730007CB4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7DBED782B855D730007CB4D /* Assets.xcassets */; };
-		D7DBED7C2B855D730007CB4D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7DBED7B2B855D730007CB4D /* Preview Assets.xcassets */; };
-		D7DBED852B85703E0007CB4D /* sound-ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7DBED822B85703E0007CB4D /* sound-ding.mp3 */; };
-		D7DBED862B85703E0007CB4D /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7DBED832B85703E0007CB4D /* sound-tap.mp3 */; };
-		D7DBED872B85703E0007CB4D /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7DBED842B85703E0007CB4D /* sound-rise.mp3 */; };
-		D7DBED912B8572D50007CB4D /* Devote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7DBED8E2B8572D50007CB4D /* Devote.xcdatamodeld */; };
-		D7DBED922B8572D50007CB4D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DBED902B8572D50007CB4D /* Persistence.swift */; };
+		D704A6CF2C09377300739B89 /* DevoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D704A6CE2C09377300739B89 /* DevoteApp.swift */; };
+		D704A6D12C09377300739B89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D704A6D02C09377300739B89 /* ContentView.swift */; };
+		D704A6D32C09377500739B89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D704A6D22C09377500739B89 /* Assets.xcassets */; };
+		D704A6D62C09377500739B89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D704A6D52C09377500739B89 /* Preview Assets.xcassets */; };
+		D704A6D82C09377500739B89 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D704A6D72C09377500739B89 /* Persistence.swift */; };
+		D704A6E52C09377500739B89 /* DevoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D704A6E42C09377500739B89 /* DevoteTests.swift */; };
+		D704A6EF2C09377500739B89 /* DevoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D704A6EE2C09377500739B89 /* DevoteUITests.swift */; };
+		D704A6F12C09377500739B89 /* DevoteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D704A6F02C09377500739B89 /* DevoteUITestsLaunchTests.swift */; };
+		D704A7012C0939C700739B89 /* sound-ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D704A6FD2C0939C700739B89 /* sound-ding.mp3 */; };
+		D704A7022C0939C700739B89 /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D704A6FE2C0939C700739B89 /* sound-rise.mp3 */; };
+		D704A7032C0939C700739B89 /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D704A6FF2C0939C700739B89 /* sound-tap.mp3 */; };
+		D704A70C2C09447100739B89 /* Devote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D704A70A2C09447100739B89 /* Devote.xcdatamodeld */; };
+		D704A7122C0D08E000739B89 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D704A7112C0D08E000739B89 /* Constant.swift */; };
+		D784DC7B2C0D27EB005B4C28 /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D784DC7A2C0D27EB005B4C28 /* HideKeyboardExtension.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D704A6E12C09377500739B89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D704A6C32C09377300739B89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D704A6CA2C09377300739B89;
+			remoteInfo = Devote;
+		};
+		D704A6EB2C09377500739B89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D704A6C32C09377300739B89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D704A6CA2C09377300739B89;
+			remoteInfo = Devote;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		D7DBED712B855D720007CB4D /* Devote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Devote.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7DBED742B855D720007CB4D /* DevoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevoteApp.swift; sourceTree = "<group>"; };
-		D7DBED762B855D720007CB4D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D7DBED782B855D730007CB4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D7DBED7B2B855D730007CB4D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D7DBED822B85703E0007CB4D /* sound-ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-ding.mp3"; sourceTree = "<group>"; };
-		D7DBED832B85703E0007CB4D /* sound-tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-tap.mp3"; sourceTree = "<group>"; };
-		D7DBED842B85703E0007CB4D /* sound-rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-rise.mp3"; sourceTree = "<group>"; };
-		D7DBED8F2B8572D50007CB4D /* Devote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Devote.xcdatamodel; sourceTree = "<group>"; };
-		D7DBED902B8572D50007CB4D /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Persistence.swift; path = Devote/Assets.xcassets/Persistence.swift; sourceTree = SOURCE_ROOT; };
+		D704A6CB2C09377300739B89 /* Devote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Devote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D704A6CE2C09377300739B89 /* DevoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevoteApp.swift; sourceTree = "<group>"; };
+		D704A6D02C09377300739B89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D704A6D22C09377500739B89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D704A6D52C09377500739B89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D704A6D72C09377500739B89 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		D704A6E02C09377500739B89 /* DevoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D704A6E42C09377500739B89 /* DevoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevoteTests.swift; sourceTree = "<group>"; };
+		D704A6EA2C09377500739B89 /* DevoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D704A6EE2C09377500739B89 /* DevoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevoteUITests.swift; sourceTree = "<group>"; };
+		D704A6F02C09377500739B89 /* DevoteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevoteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D704A6FD2C0939C700739B89 /* sound-ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-ding.mp3"; sourceTree = "<group>"; };
+		D704A6FE2C0939C700739B89 /* sound-rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-rise.mp3"; sourceTree = "<group>"; };
+		D704A6FF2C0939C700739B89 /* sound-tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-tap.mp3"; sourceTree = "<group>"; };
+		D704A7042C093A3C00739B89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D704A70B2C09447100739B89 /* Devote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Devote.xcdatamodel; sourceTree = "<group>"; };
+		D704A7112C0D08E000739B89 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		D784DC7A2C0D27EB005B4C28 /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D7DBED6E2B855D720007CB4D /* Frameworks */ = {
+		D704A6C82C09377300739B89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D704A6DD2C09377500739B89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D704A6E72C09377500739B89 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,104 +86,128 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D7DBED682B855D720007CB4D = {
+		D704A6C22C09377300739B89 = {
 			isa = PBXGroup;
 			children = (
-				D7DBED732B855D720007CB4D /* Devote */,
-				D7DBED722B855D720007CB4D /* Products */,
+				D704A6CD2C09377300739B89 /* Devote */,
+				D704A6E32C09377500739B89 /* DevoteTests */,
+				D704A6ED2C09377500739B89 /* DevoteUITests */,
+				D704A6CC2C09377300739B89 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D7DBED722B855D720007CB4D /* Products */ = {
+		D704A6CC2C09377300739B89 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D7DBED712B855D720007CB4D /* Devote.app */,
+				D704A6CB2C09377300739B89 /* Devote.app */,
+				D704A6E02C09377500739B89 /* DevoteTests.xctest */,
+				D704A6EA2C09377500739B89 /* DevoteUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D7DBED732B855D720007CB4D /* Devote */ = {
+		D704A6CD2C09377300739B89 /* Devote */ = {
 			isa = PBXGroup;
 			children = (
-				D7DBED8D2B85729D0007CB4D /* Model */,
-				D7DBED8C2B8572220007CB4D /* Style */,
-				D7DBED8B2B8572140007CB4D /* Extension */,
-				D7DBED8A2B8572070007CB4D /* Helpers */,
-				D7DBED882B8571DA0007CB4D /* Sound */,
-				D7DBED742B855D720007CB4D /* DevoteApp.swift */,
-				D7DBED762B855D720007CB4D /* ContentView.swift */,
-				D7DBED892B8571FD0007CB4D /* View */,
-				D7DBED782B855D730007CB4D /* Assets.xcassets */,
-				D7DBED7A2B855D730007CB4D /* Preview Content */,
+				D704A7092C09435500739B89 /* Style */,
+				D704A7082C09434800739B89 /* View */,
+				D704A7072C09433E00739B89 /* Model */,
+				D704A7062C09432B00739B89 /* Utility */,
+				D704A7052C09432400739B89 /* Extension */,
+				D704A7042C093A3C00739B89 /* Info.plist */,
+				D704A7002C0939C700739B89 /* Sound */,
+				D704A6CE2C09377300739B89 /* DevoteApp.swift */,
+				D704A6D02C09377300739B89 /* ContentView.swift */,
+				D704A6D22C09377500739B89 /* Assets.xcassets */,
+				D704A6D42C09377500739B89 /* Preview Content */,
 			);
 			path = Devote;
 			sourceTree = "<group>";
 		};
-		D7DBED7A2B855D730007CB4D /* Preview Content */ = {
+		D704A6D42C09377500739B89 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				D7DBED7B2B855D730007CB4D /* Preview Assets.xcassets */,
+				D704A6D52C09377500739B89 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		D7DBED882B8571DA0007CB4D /* Sound */ = {
+		D704A6E32C09377500739B89 /* DevoteTests */ = {
 			isa = PBXGroup;
 			children = (
-				D7DBED822B85703E0007CB4D /* sound-ding.mp3 */,
-				D7DBED842B85703E0007CB4D /* sound-rise.mp3 */,
-				D7DBED832B85703E0007CB4D /* sound-tap.mp3 */,
+				D704A6E42C09377500739B89 /* DevoteTests.swift */,
+			);
+			path = DevoteTests;
+			sourceTree = "<group>";
+		};
+		D704A6ED2C09377500739B89 /* DevoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D704A6EE2C09377500739B89 /* DevoteUITests.swift */,
+				D704A6F02C09377500739B89 /* DevoteUITestsLaunchTests.swift */,
+			);
+			path = DevoteUITests;
+			sourceTree = "<group>";
+		};
+		D704A7002C0939C700739B89 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				D704A6FD2C0939C700739B89 /* sound-ding.mp3 */,
+				D704A6FE2C0939C700739B89 /* sound-rise.mp3 */,
+				D704A6FF2C0939C700739B89 /* sound-tap.mp3 */,
 			);
 			path = Sound;
 			sourceTree = "<group>";
 		};
-		D7DBED892B8571FD0007CB4D /* View */ = {
+		D704A7052C09432400739B89 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D784DC7A2C0D27EB005B4C28 /* HideKeyboardExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D704A7062C09432B00739B89 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				D704A7112C0D08E000739B89 /* Constant.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		D704A7072C09433E00739B89 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D704A70A2C09447100739B89 /* Devote.xcdatamodeld */,
+				D704A6D72C09377500739B89 /* Persistence.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D704A7082C09434800739B89 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		D7DBED8A2B8572070007CB4D /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
-		D7DBED8B2B8572140007CB4D /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
-		D7DBED8C2B8572220007CB4D /* Style */ = {
+		D704A7092C09435500739B89 /* Style */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Style;
 			sourceTree = "<group>";
 		};
-		D7DBED8D2B85729D0007CB4D /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				D7DBED8E2B8572D50007CB4D /* Devote.xcdatamodeld */,
-				D7DBED902B8572D50007CB4D /* Persistence.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D7DBED702B855D720007CB4D /* Devote */ = {
+		D704A6CA2C09377300739B89 /* Devote */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D7DBED7F2B855D730007CB4D /* Build configuration list for PBXNativeTarget "Devote" */;
+			buildConfigurationList = D704A6F42C09377500739B89 /* Build configuration list for PBXNativeTarget "Devote" */;
 			buildPhases = (
-				D7DBED6D2B855D720007CB4D /* Sources */,
-				D7DBED6E2B855D720007CB4D /* Frameworks */,
-				D7DBED6F2B855D720007CB4D /* Resources */,
+				D704A6C72C09377300739B89 /* Sources */,
+				D704A6C82C09377300739B89 /* Frameworks */,
+				D704A6C92C09377300739B89 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -147,25 +215,69 @@
 			);
 			name = Devote;
 			productName = Devote;
-			productReference = D7DBED712B855D720007CB4D /* Devote.app */;
+			productReference = D704A6CB2C09377300739B89 /* Devote.app */;
 			productType = "com.apple.product-type.application";
+		};
+		D704A6DF2C09377500739B89 /* DevoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D704A6F72C09377500739B89 /* Build configuration list for PBXNativeTarget "DevoteTests" */;
+			buildPhases = (
+				D704A6DC2C09377500739B89 /* Sources */,
+				D704A6DD2C09377500739B89 /* Frameworks */,
+				D704A6DE2C09377500739B89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D704A6E22C09377500739B89 /* PBXTargetDependency */,
+			);
+			name = DevoteTests;
+			productName = DevoteTests;
+			productReference = D704A6E02C09377500739B89 /* DevoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D704A6E92C09377500739B89 /* DevoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D704A6FA2C09377500739B89 /* Build configuration list for PBXNativeTarget "DevoteUITests" */;
+			buildPhases = (
+				D704A6E62C09377500739B89 /* Sources */,
+				D704A6E72C09377500739B89 /* Frameworks */,
+				D704A6E82C09377500739B89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D704A6EC2C09377500739B89 /* PBXTargetDependency */,
+			);
+			name = DevoteUITests;
+			productName = DevoteUITests;
+			productReference = D704A6EA2C09377500739B89 /* DevoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D7DBED692B855D720007CB4D /* Project object */ = {
+		D704A6C32C09377300739B89 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1510;
-				LastUpgradeCheck = 1510;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					D7DBED702B855D720007CB4D = {
-						CreatedOnToolsVersion = 15.1;
+					D704A6CA2C09377300739B89 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					D704A6DF2C09377500739B89 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D704A6CA2C09377300739B89;
+					};
+					D704A6E92C09377500739B89 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D704A6CA2C09377300739B89;
 					};
 				};
 			};
-			buildConfigurationList = D7DBED6C2B855D720007CB4D /* Build configuration list for PBXProject "Devote" */;
+			buildConfigurationList = D704A6C62C09377300739B89 /* Build configuration list for PBXProject "Devote" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -173,47 +285,95 @@
 				en,
 				Base,
 			);
-			mainGroup = D7DBED682B855D720007CB4D;
-			productRefGroup = D7DBED722B855D720007CB4D /* Products */;
+			mainGroup = D704A6C22C09377300739B89;
+			productRefGroup = D704A6CC2C09377300739B89 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D7DBED702B855D720007CB4D /* Devote */,
+				D704A6CA2C09377300739B89 /* Devote */,
+				D704A6DF2C09377500739B89 /* DevoteTests */,
+				D704A6E92C09377500739B89 /* DevoteUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D7DBED6F2B855D720007CB4D /* Resources */ = {
+		D704A6C92C09377300739B89 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7DBED872B85703E0007CB4D /* sound-rise.mp3 in Resources */,
-				D7DBED7C2B855D730007CB4D /* Preview Assets.xcassets in Resources */,
-				D7DBED792B855D730007CB4D /* Assets.xcassets in Resources */,
-				D7DBED862B85703E0007CB4D /* sound-tap.mp3 in Resources */,
-				D7DBED852B85703E0007CB4D /* sound-ding.mp3 in Resources */,
+				D704A6D62C09377500739B89 /* Preview Assets.xcassets in Resources */,
+				D704A7022C0939C700739B89 /* sound-rise.mp3 in Resources */,
+				D704A6D32C09377500739B89 /* Assets.xcassets in Resources */,
+				D704A7032C0939C700739B89 /* sound-tap.mp3 in Resources */,
+				D704A7012C0939C700739B89 /* sound-ding.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D704A6DE2C09377500739B89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D704A6E82C09377500739B89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D7DBED6D2B855D720007CB4D /* Sources */ = {
+		D704A6C72C09377300739B89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7DBED772B855D720007CB4D /* ContentView.swift in Sources */,
-				D7DBED922B8572D50007CB4D /* Persistence.swift in Sources */,
-				D7DBED912B8572D50007CB4D /* Devote.xcdatamodeld in Sources */,
-				D7DBED752B855D720007CB4D /* DevoteApp.swift in Sources */,
+				D704A6D82C09377500739B89 /* Persistence.swift in Sources */,
+				D704A6D12C09377300739B89 /* ContentView.swift in Sources */,
+				D784DC7B2C0D27EB005B4C28 /* HideKeyboardExtension.swift in Sources */,
+				D704A7122C0D08E000739B89 /* Constant.swift in Sources */,
+				D704A70C2C09447100739B89 /* Devote.xcdatamodeld in Sources */,
+				D704A6CF2C09377300739B89 /* DevoteApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D704A6DC2C09377500739B89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D704A6E52C09377500739B89 /* DevoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D704A6E62C09377500739B89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D704A6EF2C09377500739B89 /* DevoteUITests.swift in Sources */,
+				D704A6F12C09377500739B89 /* DevoteUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		D704A6E22C09377500739B89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D704A6CA2C09377300739B89 /* Devote */;
+			targetProxy = D704A6E12C09377500739B89 /* PBXContainerItemProxy */;
+		};
+		D704A6EC2C09377500739B89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D704A6CA2C09377300739B89 /* Devote */;
+			targetProxy = D704A6EB2C09377500739B89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		D7DBED7D2B855D730007CB4D /* Debug */ = {
+		D704A6F22C09377500739B89 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -265,7 +425,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -276,7 +436,7 @@
 			};
 			name = Debug;
 		};
-		D7DBED7E2B855D730007CB4D /* Release */ = {
+		D704A6F32C09377500739B89 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -322,7 +482,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -332,7 +492,7 @@
 			};
 			name = Release;
 		};
-		D7DBED802B855D730007CB4D /* Debug */ = {
+		D704A6F52C09377500739B89 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -343,11 +503,10 @@
 				DEVELOPMENT_TEAM = 4BP297K7GX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Devote/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -355,16 +514,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = eliezer.antonio.Devote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		D7DBED812B855D730007CB4D /* Release */ = {
+		D704A6F62C09377500739B89 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -375,11 +531,10 @@
 				DEVELOPMENT_TEAM = 4BP297K7GX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Devote/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -387,32 +542,123 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = eliezer.antonio.Devote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
+		D704A6F82C09377500739B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4BP297K7GX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eliezer.antonio.DevoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Devote.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Devote";
+			};
+			name = Debug;
+		};
+		D704A6F92C09377500739B89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4BP297K7GX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eliezer.antonio.DevoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Devote.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Devote";
+			};
+			name = Release;
+		};
+		D704A6FB2C09377500739B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4BP297K7GX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eliezer.antonio.DevoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Devote;
+			};
+			name = Debug;
+		};
+		D704A6FC2C09377500739B89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4BP297K7GX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eliezer.antonio.DevoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Devote;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D7DBED6C2B855D720007CB4D /* Build configuration list for PBXProject "Devote" */ = {
+		D704A6C62C09377300739B89 /* Build configuration list for PBXProject "Devote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D7DBED7D2B855D730007CB4D /* Debug */,
-				D7DBED7E2B855D730007CB4D /* Release */,
+				D704A6F22C09377500739B89 /* Debug */,
+				D704A6F32C09377500739B89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D7DBED7F2B855D730007CB4D /* Build configuration list for PBXNativeTarget "Devote" */ = {
+		D704A6F42C09377500739B89 /* Build configuration list for PBXNativeTarget "Devote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D7DBED802B855D730007CB4D /* Debug */,
-				D7DBED812B855D730007CB4D /* Release */,
+				D704A6F52C09377500739B89 /* Debug */,
+				D704A6F62C09377500739B89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D704A6F72C09377500739B89 /* Build configuration list for PBXNativeTarget "DevoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D704A6F82C09377500739B89 /* Debug */,
+				D704A6F92C09377500739B89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D704A6FA2C09377500739B89 /* Build configuration list for PBXNativeTarget "DevoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D704A6FB2C09377500739B89 /* Debug */,
+				D704A6FC2C09377500739B89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -420,18 +666,18 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		D7DBED8E2B8572D50007CB4D /* Devote.xcdatamodeld */ = {
+		D704A70A2C09447100739B89 /* Devote.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				D7DBED8F2B8572D50007CB4D /* Devote.xcdatamodel */,
+				D704A70B2C09447100739B89 /* Devote.xcdatamodel */,
 			);
-			currentVersion = D7DBED8F2B8572D50007CB4D /* Devote.xcdatamodel */;
+			currentVersion = D704A70B2C09447100739B89 /* Devote.xcdatamodel */;
 			name = Devote.xcdatamodeld;
-			path = ../Assets.xcassets/Devote.xcdatamodeld;
+			path = /Users/eliezerantonio/Downloads/DEVOTE/Completed/Devote/Devote/Model/Devote.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = D7DBED692B855D720007CB4D /* Project object */;
+	rootObject = D704A6C32C09377300739B89 /* Project object */;
 }
